@@ -577,6 +577,7 @@ class PeakSettingPeriodRegisters(RegisterDefinition):
 
 
 REGISTERS: dict[str, RegisterDefinition] = {
+    rn.FIXED_ACTIVE_POWER: U32Register("W", 1, 40126, 2, writeable=True),
     rn.MODEL_NAME: StringRegister(30000, 15),
     rn.SERIAL_NUMBER: StringRegister(30015, 10),
     rn.PN: StringRegister(30025, 10),

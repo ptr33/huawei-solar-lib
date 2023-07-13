@@ -1,5 +1,7 @@
 """Register names from the Huawei inverter"""
 
+FIXED_ACTIVE_POWER = "fixed_active_power"
+
 MODEL_NAME = "model_name"
 SERIAL_NUMBER = "serial_number"
 PN = "pn"
