@@ -10,6 +10,8 @@
 This library implements an easy to use interface to locally connect to Huawei SUN2000 inverters over 
 Modbus-TCP or Modbus-RTU following the 'Solar Inverter Modbus Interface Definitions' provided by Huawei.
 
+**This repository adds Huawei register 40126 "fixed_active_power" to control max power from inverter.**
+
 It was primarily developed to add support for Huawei Solar inverters to Home Assistant, resulting
 in the following integration: [wlcrs/huawei_solar](https://github.com/wlcrs/huawei_solar). 
 
